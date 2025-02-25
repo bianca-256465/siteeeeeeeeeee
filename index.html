@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Girls Coffee</title>
+    <style>
+        /* Reset básico */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #fff0f6; /* Rosa claro */
+            color: #4b2e83; /* Roxo escuro para contraste */
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #f48fb1; /* Rosa mais forte */
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header .logo img {
+            max-width: 150px;
+            display: block;
+            margin: 0 auto;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #4b2e83;
+        }
+
+        .section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 28px;
+            color: #4b2e83;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            color: #4b2e83;
+        }
+
+        .menu-items {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-top: 30px;
+        }
+
+        .menu-items .item {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            width: 250px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .menu-items .item h3 {
+            font-size: 24px;
+            color: #f48fb1;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #4b2e83;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        footer p {
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./img/logo.png" alt="Girls Coffee Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sobre" class="section">
+        <h2>Bem-vindo ao Girls Coffee!</h2>
+        <p>Aqui você encontra os melhores cafés, doces e um ambiente acolhedor feito especialmente para você!</p>
+    </section>
+
+    <section id="menu" class="section">
+        <h2>Nosso Menu</h2>
+        <div class="menu-items">
+            <div class="item">
+                <h3>Café Expresso</h3>
+                <p>Um café forte e saboroso, feito com grãos selecionados.</p>
+            </div>
+            <div class="item">
+                <h3>Cappuccino</h3>
+                <p>Creme de leite com café e uma dose de chocolate.</p>
+            </div>
+            <div class="item">
+                <h3>Bolo de Chocolate</h3>
+                <p>Delicioso bolo de chocolate, perfeito para acompanhar seu café.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="section">
+        <h2>Contato</h2>
+        <p>Visite-nos na Rua das Flores, 123 ou ligue para (11) 1234-5678.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Girls Coffee | Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
